@@ -1,0 +1,21 @@
+bhavuk chawla
+9911157206
+
+360DigitalTransformation
+
+highscalibilty.com
+you tube spark straming uber
+
+
+
+which tool to use when?
+
+
+https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-rdd.html
+
+
+source /home/cloudera/anaconda2/bin/activate
+
+https://databricks.com/solutions/financial-services
+
+https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwi7__ySif7SAhVLKo8KHf4dCRAQFggqMAM&url=https%3A%2F%2Fdatabricks.gitbooks.io%2Fdatabricks-spark-reference-applications%2Flogs_analyzer%2Findex.html&usg=AFQjCNEhB1GNGHQr0bpLwYeKmTYJO8bZFg
