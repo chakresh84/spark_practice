@@ -1,0 +1,11 @@
+var movies = sc.textFile("file:/home/cloudera/training_materials/data/movies.txt").map(x=>x.split("::"))
+var moviespair = movies.map(a=>(a(0),a(1)))
+moviespair.take(2)
+var broadcasted_movies = sc.broadcast(moviespair.collectAsMap())
+broadcasted_movies.value
+var ratings = sc.textFile("file:/home/cloudera/training_materials/data/ratings.txt").map(x=>x.split("::"))
+ratings.take(2)
+var movie_ratings = ratings.map(x=>(broadcasted_movies.value.get(x(0)),x(2)))
+movie_ratings.take(2)
+movie_ratings.toDebugString
+

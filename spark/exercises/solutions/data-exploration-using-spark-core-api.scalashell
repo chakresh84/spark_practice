@@ -1,0 +1,7 @@
+var data=sc.textFile("sparkintro.txt")
+data.count()
+var data_split=data.map(line => line.split('\n'))
+data_split.collect()
+data_split.take(3)
+var data_filter=data.filter(words=> words.contains("Spark"))
+data_filter.saveAsTextFile("spark_intro_output")
